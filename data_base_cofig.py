@@ -1,10 +1,10 @@
 import psycopg2
 from psycopg2 import Error 
-connection = psycopg2.connect( host="localhost", 
-                                        port = 5432, 
-                                        database="hosseincomedian", 
-                                        user="postgres", 
-                                        password="ho0123456789")
+connection = psycopg2.connect( host="", 
+                                        port = 0000, 
+                                        database="", 
+                                        user="", 
+                                        password="")
 cursor = connection.cursor()
 cursor.execute(
 	'CREATE TABLE gp( '+
