@@ -19,7 +19,6 @@
 
 # step 4 :
 ```
- $ python botttt.py
- 
  $ python data_base_cofig.py 
+ $ python botttt.py
  ```
